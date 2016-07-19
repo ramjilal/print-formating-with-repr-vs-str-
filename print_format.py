@@ -22,3 +22,9 @@ print 'hello %r only %d value of %f' % (c,a,b)
 
 # format() is also use print formating 
 print 'hello {c} only {a} value of {b}'.format(c='here',a=1,b=12.1445) 
+
+# here another use of format() 
+print ' here %s is number . here %s is real number '%(12.34,12.34)
+
+# now we use format() 
+print ' here {a} is number . here {a} is real number '.format(a=12.34)
