@@ -17,7 +17,7 @@ print 'date and time are : {}'.format(repr(datetime.datetime.now()))
 
 
 ''' 
- str():                                 |           repr():
+ str():                              |           repr():
   - make object readable	            |         - need code that reproduces object
   - generate output for end user	    |         - generate output for developer
 
