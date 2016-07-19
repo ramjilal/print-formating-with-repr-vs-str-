@@ -5,7 +5,7 @@ print 'hello %s only %d value of %f' % (c,a,b)
 
 #here %x.yf -> represented as:
 
-# x is number of whitspaces if given digits less than x
+# x is number of digits before decimels
 # let consider given digit is 12.34 and here x = 6
 # than there two whitspace before print this value
 
